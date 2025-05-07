@@ -1,0 +1,23 @@
+﻿
+
+
+
+Microsoft.EntityFrameworkCore.Tools
+MySql.EntityFrameworkCore
+
+
+
+Scaffold-DbContext "connection-string" MySql.EntityFrameworkCore -OutputDir sakila -f
+
+
+
+
+"server=127.0.0.1;uid=root;pwd=Ra3a42?MR;database=allabyggfirmor"
+
+
+dotnet ef dbcontext scaffold "server=127.0.0.1;uid=root;pwd=Ra3a42?MR;database=allabyggfirmor" MySql.EntityFrameworkCore -o App_Data -t st_municipalities -f
+
+
+MariaDB Server Version 9
+
+dotnet ef dbcontext scaffold "server=mysql369.loopia.se;uid=itmxgv@i371810 ;pwd=e9Q3q@25ds@w0!ds;database=itegamax_se" MySql.EntityFrameworkCore -o App_Data -f
